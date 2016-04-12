@@ -83,6 +83,7 @@ main section ul {
 main section ul li {
   width: 25%;
   float: left;
+  font-weight: bold;
   font-size: 24px;
   text-align: center;
 }
