@@ -1,4 +1,4 @@
-// Randomizer ver.1.0.2 data:2016-04-22
+// Randomizer ver.1.0.2 data:2016-05-02
 $(function(){
   function random(array, num) {
     var a = array;
@@ -14,10 +14,10 @@ $(function(){
     }
     return r;
   }
-  var arrayEC = [2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-  var arrayTD = [36, 37, 38, 39, 40, 42, 43, 44, 46, 47, 61, 62];
-  var arrayOT = [16, 18, 20, 21, 23, 26, 28, 30, 31, 32, 33, 34, 48, 49, 51, 53, 54, 55, 56, 57, 58, 59, 60, 64, 65];
-  // var arrayHB = [1, 4, 25, 35, 41, 45, 50, 63];
+  var arrayEC = [2, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15];
+  var arrayTD = [36, 38, 39, 40, 42, 43, 44, 45, 46, 47, 62];
+  var arrayOT = [16, 18, 20, 21, 23, 26, 28, 30, 32, 33, 34, 49, 51, 53, 54, 55, 56, 57, 58, 59, 60, 64, 65];
+  // var arrayHB = [1, 4, 8, 25, 31, 35, 37, 41, 48, 50, 61, 63];
   // var exception =[3, 17, 19, 24, 27, 29];
   var $results = $('#result');
   $('#randomize').on('click', function() {
